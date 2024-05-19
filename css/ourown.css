@@ -1,0 +1,125 @@
+:root{
+	--primary-color		: #15161B;
+	--secondary-color	: #F7F8FD;
+	--text-color		: #9C9FA6;
+	--accent-color		: #5D56F1;
+	--white-color		: #FFFFFF;
+	--divider-color		: #E1E4EB;
+	--error-color		: rgb(230, 87, 87);
+	--default-font		: "Manrope", sans-serif;
+}
+
+.my-main-heading{
+    font-size: 46px;
+	margin :0;
+	font-weight: 700;
+	color: var(--primary-color);
+	line-height: 1.1em;
+}
+
+.my-sub-heading{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--divider-color);;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+.my-sub-heading a{
+	background-color: var(--accent-color);
+	color: var(--white-color);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+}
+
+my-red-black-gradient{
+    background: linear-gradient(90deg, #ff0000 0%, #000000 100%);
+}
+
+.my-hero{
+	position: relative;
+	background: var(--secondary-color) url(../images/service-img-1.jpg) no-repeat bottom center;
+	padding: 140px 0;
+}
+
+
+.my-post-single-image{
+	/* max-width: 1200px; */
+	margin: 0 auto 40px;
+	overflow: hidden;
+}
+
+.my-post-single-image img{
+	border-radius: 40px;
+}
+
+.my-hiding-element{
+
+}
+
+.my-showing-element{
+
+}
+
+@media (max-width: 767px){
+	.my-hiding-element{
+		display: block;
+	}
+
+	.my-showing-element{
+		display: none;
+	}
+}
+
+@media (min-width: 768px){
+	.my-hiding-element{
+		display: none;
+	}
+
+	.my-showing-element{
+		display: block;
+	}
+}
+
+.your-element-class{
+
+}
+
+@media (min-width: 992px) {
+	/* Apply increased left alignment for laptops and desktops */
+	.your-element-class{
+		margin-left: 20%; /* Adjust the value as needed */
+	}
+}
+
+/* Styles for devices with a maximum width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+	/* Your styles for tablets and smaller devices go here */
+	.myLeftRightAlignment{
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: center;
+	}
+  }
+
+  @media (min-width: 767px) {
+	/* Apply increased left alignment for laptops and desktops */
+	.leftRightAlignmentLaptopBulletPoints{
+		margin-left: 10%;
+		margin-right: 10%;
+ 	}
+}
+  
+@media (max-width: 768px) {
+	/* Your styles for tablets and smaller devices go here */
+	.imageCenterAlignOnMobile{
+		/* align-content: center; */
+		margin-left: 29%;
+		margin-top: 5%;
+	}
+  }
