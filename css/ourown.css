@@ -123,3 +123,11 @@ my-red-black-gradient{
 		margin-top: 5%;
 	}
   }
+
+  @media (max-width: 768px) {
+	/* Your styles for tablets and smaller devices go here */
+	.footerForMobile{
+		/* align-content: center; */
+		text-align: center;
+	}
+  }
